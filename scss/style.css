@@ -130,7 +130,7 @@ figure .btnNext {
   right: 50%;
   transform: translate(20vw, -50%);
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   cursor: pointer;
   font-size: 0;
