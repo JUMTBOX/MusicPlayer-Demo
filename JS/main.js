@@ -48,6 +48,8 @@ btnPrev.addEventListener("click", () => {
 
   for (let el of articleArr) {
     el.classList.remove("on");
+    el.querySelector(".pic").classList.remove("on");
+    el.querySelector("audio").pause();
   }
 
   articleArr[active].classList.add("on");
@@ -60,6 +62,8 @@ btnNext.addEventListener("click", () => {
 
   for (let el of articleArr) {
     el.classList.remove("on");
+    el.querySelector(".pic").classList.remove("on");
+    el.querySelector("audio").pause();
   }
 
   articleArr[active].classList.add("on");
